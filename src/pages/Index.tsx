@@ -94,7 +94,7 @@ const Index = () => {
               <div className="w-12 h-12 bg-led-red rounded-full mx-auto mb-4 shadow-led-red"></div>
               <h3 className="font-semibold mb-2">Red Phase</h3>
               <p className="text-sm text-muted-foreground">
-                GPIO 18 controls the red LED component
+                GPIO 21 controls the red LED component
               </p>
             </div>
           </Card>
@@ -104,7 +104,7 @@ const Index = () => {
               <div className="w-12 h-12 bg-led-green rounded-full mx-auto mb-4 shadow-led-green"></div>
               <h3 className="font-semibold mb-2">Green Phase</h3>
               <p className="text-sm text-muted-foreground">
-                GPIO 19 controls the green LED component
+                GPIO 20 controls the green LED component
               </p>
             </div>
           </Card>
@@ -114,7 +114,7 @@ const Index = () => {
               <div className="w-12 h-12 bg-led-blue rounded-full mx-auto mb-4 shadow-led-blue"></div>
               <h3 className="font-semibold mb-2">Blue Phase</h3>
               <p className="text-sm text-muted-foreground">
-                GPIO 20 controls the blue LED component
+                GPIO 16 controls the blue LED component
               </p>
             </div>
           </Card>

@@ -17,9 +17,9 @@ import RPi.GPIO as GPIO
 import time
 
 # GPIO pin assignments (adjust based on your wiring)
-RED_PIN = 18    # GPIO 18 (Pin 12)
-GREEN_PIN = 19  # GPIO 19 (Pin 35)  
-BLUE_PIN = 20   # GPIO 20 (Pin 38)
+RED_PIN = 21    # GPIO 21 (Pin 40)
+GREEN_PIN = 20  # GPIO 20 (Pin 38)  
+BLUE_PIN = 16   # GPIO 16 (Pin 36)
 
 def setup():
     """Initialize GPIO pins"""
@@ -104,9 +104,9 @@ if __name__ == "__main__":
         <div className="mt-4 text-sm text-muted-foreground">
           <p className="mb-2"><strong>Wiring Guide:</strong></p>
           <ul className="list-disc list-inside space-y-1">
-            <li>Red LED: GPIO 18 (Pin 12) → 220Ω resistor → Red LED → Ground</li>
-            <li>Green LED: GPIO 19 (Pin 35) → 220Ω resistor → Green LED → Ground</li>
-            <li>Blue LED: GPIO 20 (Pin 38) → 220Ω resistor → Blue LED → Ground</li>
+            <li>Red LED: GPIO 21 (Pin 40) → 220Ω resistor → Red LED → Ground</li>
+            <li>Green LED: GPIO 20 (Pin 38) → 220Ω resistor → Green LED → Ground</li>
+            <li>Blue LED: GPIO 16 (Pin 36) → 220Ω resistor → Blue LED → Ground</li>
           </ul>
           <p className="mt-2"><strong>To run:</strong> Save as <code>rgb_blinker.py</code> and run with <code>python3 rgb_blinker.py</code></p>
         </div>
